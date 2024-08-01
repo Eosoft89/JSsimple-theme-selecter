@@ -1,4 +1,4 @@
-:root {   /* :root representa el elemento <html>, se utiliza acá ara definir variables globales dentro del CSS, que luego podrán se utilizadas */
+:root {   /* :root representa el elemento <html>, se utiliza acá para definir variables globales dentro del CSS, que luego podrán se utilizadas */
     --green: #00FF00; 
     --white: #FFFFFF;
     --black: #000000;
@@ -14,11 +14,11 @@ li {
     list-style: circle;
 }
 
-.list {   /* Definición de clase, que se puede llamar desde el html median class="" */
+.list {   /* Definición de clase, que se puede llamar desde el html mediante class="" */
     list-style: square;
 }
 
-#msg {     /* Definición de Id, que se puede llamar desde el html median id="" */
+#msg {     /* Definición de Id, que se puede llamar desde el html mediante id="" */
     font-family: monospace;
 }
 
